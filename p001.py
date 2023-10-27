@@ -36,7 +36,57 @@ dict1 = { 1 : "sec" , "tu-bs" : "de" , 20 : 1.9 } # 1 | "tu-bs" | 20 are the key
 
 # For if we use : | same for the else : | if we use if and else in one line --> c = ( 'equal' if a == b else 'unequal')
 
-# comparison equality and logical operators are the same, like other programming languages 
+# comparison equality and logical operators are the same, like other programming languages
+
+# one can also compare 3 numbers : a < b <= c
+
+# there are no switch statements, rather we are using elif (else if)
+
+# there are also no break statements in if statements!!!, which we are using in java and C
+
+# for i in range[1,2,3] --> for statement rather than an array also ,,for i in range (1,4)'' can be used. 4 nicht enthalten!
+
+# while a == 0 : --> while statement
+
+# in loops it is allowed to use break and continue!
+
+# functions can be identified with the key word "def"
+
+# def functionName( a , b , c = None ) : --> None means that the function can be called only with the a and b variables
+
+# class ClassName( InheritedClassName1 , InheritedClassName2 ) : 
+# def __init__(self , a , b , c ): --> self always the first argument
+# self.a = a --> public | self._a = a --> protected | self.__a = private 
+# def functionInTheClass(self , a , b) : "nextLine" return x * y + self.__c
+
+# try: "nextLine" raise PatatesError("That is a PatatesError")
+# except: 
+
+# try: "nextLine" 1/0
+# except zeroDivisionError es e: "nextLine" print("Divided by zero: {}".format(e)) --> an exception can be catched with the keyword as | the first e is then used in the format(e)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
