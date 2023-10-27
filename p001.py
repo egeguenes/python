@@ -65,8 +65,33 @@ dict1 = { 1 : "sec" , "tu-bs" : "de" , 20 : 1.9 } # 1 | "tu-bs" | 20 are the key
 # try: "nextLine" 1/0
 # except zeroDivisionError es e: "nextLine" print("Divided by zero: {}".format(e)) --> an exception can be catched with the keyword as | the first e is then used in the format(e)
 
+# Each .py file is one module
+# import foo
+# f = foo.Foo( 0 , 1 , 2 )
+# x = f.functionName(4 , 2 )
 
+# importing specific functions/classes only
+# from foo import Foo
+# f = Foo( 0 , 1 , 2 )
+# x = f.functionName( 4 , 2 )
 
+# modules are organized as packages | packages are ,,folders'' containing modules
+# must contain a __init__.py module
+
+# Phyton offers a huge standart library
+# import os.path as path
+# fileName = path.basename("/usr/bin/python")
+# pypath = path.join( "" , "usr" , "bin" , filename )
+
+# use a dedicated main function --> def main() : 
+# if __name__ == "__main__" : "nextLine" main()
+
+""" this is a comment, that i can have for more than one line
+		line 2
+		line 3
+		line 4 and its gonna end here """
+
+# end of the comment codes and i hope i will be using these information and use python effectively with its help
 
 
 
